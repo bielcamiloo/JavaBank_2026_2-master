@@ -43,6 +43,9 @@ public class Conta {
             System.out.println("O titular deve possuir pelo menos 2 caracteres");
         }
     }
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
 
     public boolean depositar(double valor) {
         if (valor > 0) {
