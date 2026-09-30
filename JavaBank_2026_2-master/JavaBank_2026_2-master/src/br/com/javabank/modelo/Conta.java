@@ -1,12 +1,13 @@
 package br.com.javabank.modelo;
 
-public class Conta {
+public class Conta{
     //ENCAPSULAMENTO
     //public --> qualquer classe tem acesso a todos os membros
     //private --> apenas a propria classe tem acesso aos membros
     private int numero;
     private String titular;
     private double saldo;
+    public int totalContas = 0;
 
     //Construtor
     public Conta (){
